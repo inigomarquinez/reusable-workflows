@@ -5,26 +5,7 @@
 name: OpenSSF scorecard supply-chain security
 
 on:
-  # For Branch-Protection check. Only the default branch is supported. See
-  # https://github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection
-  # branch_protection_rule:
-  # To guarantee Maintained check is occasionally updated. See
-  # https://github.com/ossf/scorecard/blob/main/docs/checks.md#maintained
-  # schedule:
-  #   - cron: '0 0 * * 1'
-  # push:
-  #   branches: [ "main", "master" ]
   workflow_call:
-  #   inputs:
-  #     config-path:
-  #       required: true
-  #       type: string
-  #   secrets:
-  #     envPAT:
-  #       required: true
-
-# Declare default permissions as read only.
-# permissions: read-all
 
 jobs:
   scorecard-analysis:
