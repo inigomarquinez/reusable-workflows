@@ -24,7 +24,7 @@ on:
   #       required: true
 
 # Declare default permissions as read only.
-permissions: read-all
+# permissions: read-all
 
 jobs:
   scorecard-analysis:
