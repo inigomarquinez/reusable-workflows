@@ -2,6 +2,13 @@
 # by a third-party and are governed by separate terms of service, privacy
 # policy, and support documentation.
 
+# See https://github.com/marketplace/actions/ossf-scorecard-action
+
+# The parent job needs to call this workflow with at least the following
+# permissions:
+#   security-events: write
+#   id-token: write
+      
 name: OpenSSF scorecard supply-chain security
 
 on:
