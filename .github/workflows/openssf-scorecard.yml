@@ -9,7 +9,7 @@
 #   security-events: write
 #   id-token: write
       
-name: OpenSSF scorecard supply-chain security
+name: OpenSSF scorecard supply-chain security (reusable workflow)
 
 on:
   workflow_call:
